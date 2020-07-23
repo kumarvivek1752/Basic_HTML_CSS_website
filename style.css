@@ -111,7 +111,7 @@ main h2 {
 .card-heading h3 {
     /*margin-top: 0;*/
     /*margin-bottom: 5px;*/
-    padding: 20px 0px 5px 20px;
+    padding: 20px 0 5px 20px;
     color: #D466A8;
     font-weight: normal;
 }
@@ -151,7 +151,6 @@ main h2 {
 /*contact form properties*/
 
 
-
 .contact {
     /*width: 90%;*/
     display: flex;
@@ -176,6 +175,7 @@ main h2 {
 
 .back-img img {
     width: 100%;
+    height: 100%;
 }
 
 
@@ -201,7 +201,6 @@ button {
 }
 
 
-
 .form h3 {
     font-size: 2em;
     font-weight: 500;
@@ -218,6 +217,7 @@ label {
     font-weight: 500;
     color: #D466A8;
 }
+
 input {
     text-align: left;
     font-size: 20px;
@@ -259,18 +259,14 @@ footer a:hover {
 
 footer img {
     width: 29px;
-    display:block;
+    display: block;
     padding-bottom: 5px;
-    margin:auto;
+    margin: auto;
 }
 
 .logos {
     text-align: center;
 }
-
-
-
-
 
 
 @media screen and (max-width: 1000px) {
@@ -325,6 +321,7 @@ footer img {
         height: 10vh;
 
     }
+
     form {
         width: 100%;
         margin: 10px;
